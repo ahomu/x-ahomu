@@ -6,12 +6,43 @@
     <!-- 2. Load the component using an HTML Import -->
     <link rel="import" href="x-ahomu.html">
     <style>
-    
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        width: 100%;
+        display: table;
+        font-family: "nta",Arial,sans-serif;
+      }
+      h1 {
+        font-size: 128px;
+        text-align: center;
+      }
+      x-ahomu {
+        text-align: center;
+      }
+      a {
+        color: #555;
+        text-decoration: none;
+      }
+      li {
+        font-size: 12px;
+        margin: 3px 5px;
+        padding: 3px 5px;
+        border-radius: 6px;
+        border: 1px solid #eee;
+        -webkit-animation: fadeIn 0.5s;
+        -webkit-animation-timing-function: ease-out;
+      }
+      @-webkit-keyframes fadeIn {
+        0%   { opacity: 0; }
+        100% { opacity: 1; }
+      }
     </style>
   </head>
   <body>
     <!-- 3. Declare the element by its tag. -->
-    <h1>I'm <a href="http://aho.mu">ahomu</a></h1>
+    <h1><a href="http://aho.mu">&lt;x-ahomu&gt;</a></h1>
     <x-ahomu color="rainbow"></x-ahomu>
   </body>
 </html>
