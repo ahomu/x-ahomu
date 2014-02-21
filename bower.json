@@ -1,0 +1,27 @@
+{
+  "name": "x-ahomu",
+  "version": "0.0.0",
+  "authors": [
+    "ahomu <mail@ayumusato.com>"
+  ],
+  "description": "My name is ahomu.",
+  "main": "x-ahomu.html",
+  "keywords": [
+    "polymer",
+    "web-components"
+  ],
+  "license": "MIT",
+  "homepage": "http://aho.mu",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "~0.2.0",
+    "platform": "~0.2.0",
+    "polymer-elements": "Polymer/polymer-elements#~0.2.0"
+  }
+}
